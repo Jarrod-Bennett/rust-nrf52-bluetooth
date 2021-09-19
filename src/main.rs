@@ -6,7 +6,7 @@
 // nrfutil pkg generate --hw-version 52 --sd-req=0x00 --application ./build.hex --application-version 1 prog.zip
 // nrfutil dfu usb-serial -pkg prog.zip -p COM5
 
-use nrf52 as _; // global logger + panicking-behavior + memory layout
+use rust_nrf52_bluetooth as _; // global logger + panicking-behavior + memory layout
 use nrf52840_hal as hal;
 use hal::{
     pac::Peripherals,

@@ -13,7 +13,7 @@ name = "test"
 harness = false
 
 [dependencies]
-nrf52 = { path = ".." }
+rust-nrf52-bluetooth = { path = ".." }
 cortex-m = "0.7.1"
 cortex-m-rt = "0.6.12"
 defmt = "0.2.0"
