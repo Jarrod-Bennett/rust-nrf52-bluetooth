@@ -15,8 +15,8 @@ cortex-m-rt = "0.6.13"
 #panic-probe = { version = "0.2.0", features = ["print-defmt"] }
 nrf52840-hal = { git = "https://github.com/Jarrod-Bennett/nrf-hal", features = [] }
 embedded-hal = { version = "0.2.3", features = ["unproven"] }
-#nrf52840-hal = { version = "0.11", features = ["rt"] }
-
+rubble = { version = "0.0.4" }
+rubble-nrf5x = { version = "0.0.4", features = ["52840"] }
 
 [features]
 # set logging levels here
